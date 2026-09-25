@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
 mkdir -p \
-worker/auth \
-worker/middleware
+  worker/auth \
+  worker/auth/jwt \
+  worker/auth/password-hashing \
+  worker/auth/registration \
+  worker/auth/login \
+  worker/middleware

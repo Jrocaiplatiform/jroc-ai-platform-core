@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
 mkdir -p \
-workflow-studio \
-workflow-engine \
-workflow-templates \
-workflow-versioning
+  workflow-studio \
+  workflow-builder \
+  workflow-engine \
+  workflow-templates \
+  workflow-versioning \
+  workflow-triggers \
+  workflow-conditions \
+  workflow-actions \
+  workflow-approvals

@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
 mkdir -p \
-crm \
-projects \
-contracts \
-support \
-hr-suite \
-analytics
+  crm \
+  projects \
+  contracts \
+  support \
+  hr-suite \
+  analytics

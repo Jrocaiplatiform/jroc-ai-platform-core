@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
 mkdir -p \
-agent-runtime \
-agent-memory \
-agent-testing \
-agent-store \
-prompt-engine
+  agent-runtime \
+  agent-registry \
+  agent-memory \
+  agent-testing \
+  agent-store \
+  prompt-engine

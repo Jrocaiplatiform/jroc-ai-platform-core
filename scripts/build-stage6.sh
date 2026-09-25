@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
 mkdir -p \
-billing \
-subscriptions \
-licenses \
-usage-metering \
-commissions
+  billing \
+  subscriptions \
+  licenses \
+  invoices \
+  usage-metering \
+  metering \
+  commissions

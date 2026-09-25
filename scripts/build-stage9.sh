@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
 mkdir -p \
-chairman-office \
-governance \
-mission-control \
-strategy-engine \
-portfolio-management \
-executive-analytics \
-system-healers \
-innovation-lab \
-research-division
+  chairman-office \
+  governance \
+  mission-control \
+  portfolio-management \
+  executive-analytics \
+  system-healers \
+  innovation-lab \
+  research-division

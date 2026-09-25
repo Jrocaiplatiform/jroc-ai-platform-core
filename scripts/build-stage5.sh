@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
 mkdir -p \
-marketplace \
-product-store \
-reviews \
-publishing \
-downloads
+  marketplace \
+  products \
+  reviews \
+  downloads \
+  publishing
