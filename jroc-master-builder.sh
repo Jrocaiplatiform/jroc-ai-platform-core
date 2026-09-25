@@ -329,19 +329,15 @@ innovation-lab \
 research-division
 EOF
 
-chmod +x scripts/*.sh
-
-echo "Running All Stages..."
-
-./scripts/build-stage1.sh
-./scripts/build-stage1-1.sh
-./scripts/build-stage1-2.sh
-./scripts/build-stage1-3.sh
-
-./scripts/build-stage2.sh
-./scripts/build-stage3.sh
-./scripts/build-stage4.sh
-
-./scripts/build-stage5.sh
-./scripts/build-stage6.sh
-./scripts/build-chmod   
+bash scripts/build-stage1.sh
+bash scripts/build-stage1-1.sh
+bash scripts/build-stage1-2.sh
+bash scripts/build-stage1-3.sh
+bash scripts/build-stage2.sh
+bash scripts/build-stage3.sh
+bash scripts/build-stage4.sh
+bash scripts/build-stage5.sh
+bash scripts/build-stage6.sh
+bash scripts/build-stage7.sh
+bash scripts/build-stage8.sh
+bash scripts/build-stage9.sh
