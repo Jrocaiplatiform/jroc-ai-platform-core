@@ -1,4 +1,11 @@
-/**
+"d1_databases": [
+  {
+    "binding": "DB",
+    "database_name": "jroc-ai-db",
+    "database_id": "PASTE_YOUR_DATABASE_ID_HERE",
+    "migrations_dir": "database/migrations"
+  }
+],
  * For more details on how to configure Wrangler, refer to:
  * https://developers.cloudflare.com/workers/wrangler/configuration/
  */
