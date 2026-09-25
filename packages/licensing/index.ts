@@ -1,6 +1,10 @@
-export const Plans = [
-  "starter",
-  "professional",
-  "business",
-  "enterprise"
-];
+export class LICENSINGService {
+
+  async initialize() {
+    return {
+      module: "licensing",
+      status: "ready"
+    };
+  }
+
+}

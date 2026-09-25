@@ -1,8 +1,10 @@
-export class OrganizationService {
-  async create(name:string){
+export class ORGANIZATIONSService {
+
+  async initialize() {
     return {
-      id: crypto.randomUUID(),
-      name
+      module: "organizations",
+      status: "ready"
     };
   }
+
 }

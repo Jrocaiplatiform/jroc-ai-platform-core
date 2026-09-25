@@ -1,3 +1,10 @@
-export class EventBus {
-  publish(event:any){
-    console 
+export class EVENTBUSService {
+
+  async initialize() {
+    return {
+      module: "event-bus",
+      status: "ready"
+    };
+  }
+
+}

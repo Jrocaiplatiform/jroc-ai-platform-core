@@ -1,5 +1,10 @@
-export class UserService {
-  async getUser(id:string){
-    return { id };
+export class USERSService {
+
+  async initialize() {
+    return {
+      module: "users",
+      status: "ready"
+    };
   }
+
 }

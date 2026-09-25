@@ -1,8 +1,10 @@
-export class NotificationService {
-  async send(
-    userId:string,
-    message:string
-  ){
-    return true;
+export class NOTIFICATIONSService {
+
+  async initialize() {
+    return {
+      module: "notifications",
+      status: "ready"
+    };
   }
+
 }

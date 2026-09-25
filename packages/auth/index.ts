@@ -1,5 +1,10 @@
-export class AuthService {
-  async validateToken(token:string){
-    return typeof token === "string" && token.length > 0;
+export class AUTHService {
+
+  async initialize() {
+    return {
+      module: "auth",
+      status: "ready"
+    };
   }
+
 }

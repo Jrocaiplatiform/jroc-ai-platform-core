@@ -1,8 +1,10 @@
-export class EnterpriseGraph {
-  async createNode(label:string){
+export class ENTERPRISEGRAPHService {
+
+  async initialize() {
     return {
-      id: crypto.randomUUID(),
-      label
+      module: "enterprise-graph",
+      status: "ready"
     };
   }
+
 }
