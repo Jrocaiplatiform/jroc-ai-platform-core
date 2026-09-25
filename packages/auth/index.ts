@@ -1,5 +1,5 @@
 export class AuthService {
   async validateToken(token:string){
-    return !!token;
+    return typeof token === "string" && token.length > 0;
   }
 }

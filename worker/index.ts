@@ -4,7 +4,7 @@ const app = new Hono();
 
 app.get("/", (c) =>
   c.json({
-    platform: "JROC AI Platform Core",
+    system: "JROC AI Platform Core",
     version: "1.0.0"
   })
 );
